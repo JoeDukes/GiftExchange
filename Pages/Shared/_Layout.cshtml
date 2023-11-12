@@ -19,12 +19,12 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-route-recipient="Russ" asp-page="/Gifts">Russ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-route-recipient="Sue" asp-page="/Gifts">Sue</a>
-                        </li>
+                        @foreach(var name in Enum.GetValues(typeof(GiftExchange.Models.family)))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-route-recipient="@name" asp-page="/Gifts">@name</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
