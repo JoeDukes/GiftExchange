@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source\\Repos\\xmas-gifts-2\\JoeDukes.github.io\\GiftExchange.csproj": {}
+    "D:\\Source\\Repos\\xmas-gifts\\GiftExchange\\GiftExchange.csproj": {}
   },
   "projects": {
-    "D:\\Source\\Repos\\xmas-gifts-2\\JoeDukes.github.io\\GiftExchange.csproj": {
+    "D:\\Source\\Repos\\xmas-gifts\\GiftExchange\\GiftExchange.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\Repos\\xmas-gifts-2\\JoeDukes.github.io\\GiftExchange.csproj",
+        "projectUniqueName": "D:\\Source\\Repos\\xmas-gifts\\GiftExchange\\GiftExchange.csproj",
         "projectName": "GiftExchange",
-        "projectPath": "D:\\Source\\Repos\\xmas-gifts-2\\JoeDukes.github.io\\GiftExchange.csproj",
+        "projectPath": "D:\\Source\\Repos\\xmas-gifts\\GiftExchange\\GiftExchange.csproj",
         "packagesPath": "C:\\Users\\joe\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\Repos\\xmas-gifts-2\\JoeDukes.github.io\\obj\\",
+        "outputPath": "D:\\Source\\Repos\\xmas-gifts\\GiftExchange\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
