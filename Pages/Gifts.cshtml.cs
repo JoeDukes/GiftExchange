@@ -19,9 +19,11 @@ public class GiftsModel : PageModel
     {
         if(String.IsNullOrEmpty(recipient))
         {
+            _logger.LogInformation("Gift page recipient is empty.");
             return RedirectToPage("./Index");
         }
 
+        _logger.LogInformation("Gift page recipient: " + recipient);
         Recipient = recipient;
 
         return Page();
